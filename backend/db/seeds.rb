@@ -23,6 +23,7 @@ tokyo = Location.create(name: "Tokyo", lat: 63.3367, lng: 142.9856, sunrise: "4:
 sydney = Location.create(name: "Sydney", lat: -33.8688, lng: 151.2093, sunrise: "6:56:08", image: "https://cdn.fstoppers.com/styles/full/s3/photos/120067/04/11/a3ccf80d15280005ba418d0eb53a006d.jpg")
 rio_de_janeiro = Location.create(name: "Rio de Janeiro", lat: -22.9068, lng: -43.1729, sunrise: "6:29:32", image: "https://www.telegraph.co.uk/content/dam/news/2016/08/03/104617413_Jesus%20Christ%20The%20Redeemer%20is%20seen%20during%20sunrise%20in%20Rio%20de%20Janeiro%20Brazil%20August%202%202016._trans_NvBQzQNjv4BqYrOuIV-teFJsey141IDT4d9pyDCJntVpAyu3Et7COak.jpg")
 moscow = Location.create(name: "Moscow", lat: 55.7558, lng: 37.617, sunrise: "3:45:59", image: "https://previews.123rf.com/images/marina99/marina991706/marina99170600095/81215619-saint-basil-s-cathedral-in-red-square-in-winter-at-sunrise-moscow-russia-.jpg")
+honolulu = Location.create(name: "Honolulu", lat: 21.3069, lng: 157.8583, sunraise: "7:05:00", image: "https://www.hawaiimagazine.com/sites/default/files/field/image/bestday-honolulu-opener.jpg")
 cairo = Location.create(name: "Cairo", lat: 30.0444, lng: 31.2357, sunrise: "4:53:11", image: "http://bucket.trending.com/trending/twitter/2019-12-09/egypt-at-sunrise.jpg")
 
 Favorite.create(user: haley, location: sydney)
